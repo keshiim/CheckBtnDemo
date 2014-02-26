@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A7097187526A70027ADAA /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A7093187526A70027ADAA /* bk.png */; };
+		842A7098187526A70027ADAA /* bk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A7094187526A70027ADAA /* bk@2x.png */; };
+		842A7099187526A70027ADAA /* bs.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A7095187526A70027ADAA /* bs.png */; };
+		842A709A187526A70027ADAA /* bs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842A7096187526A70027ADAA /* bs@2x.png */; };
 		845C1FF71875186B00295CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C1FF61875186B00295CAF /* Foundation.framework */; };
 		845C1FF91875186B00295CAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C1FF81875186B00295CAF /* CoreGraphics.framework */; };
 		845C1FFB1875186B00295CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C1FFA1875186B00295CAF /* UIKit.framework */; };
@@ -19,6 +23,10 @@
 		845C20121875186B00295CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C1FFA1875186B00295CAF /* UIKit.framework */; };
 		845C201A1875186B00295CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 845C20181875186B00295CAF /* InfoPlist.strings */; };
 		845C201C1875186B00295CAF /* CheckBtnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C201B1875186B00295CAF /* CheckBtnDemoTests.m */; };
+		845C20281875188F00295CAF /* YGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C20261875188F00295CAF /* YGLViewController.m */; };
+		845C20291875188F00295CAF /* YGLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845C20271875188F00295CAF /* YGLViewController.xib */; };
+		845C202C1875191500295CAF /* YGLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C202B1875191500295CAF /* YGLCell.m */; };
+		845C202E1875192200295CAF /* YGLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845C202D1875192200295CAF /* YGLCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842A7093187526A70027ADAA /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk.png; sourceTree = "<group>"; };
+		842A7094187526A70027ADAA /* bk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk@2x.png"; sourceTree = "<group>"; };
+		842A7095187526A70027ADAA /* bs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bs.png; sourceTree = "<group>"; };
+		842A7096187526A70027ADAA /* bs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bs@2x.png"; sourceTree = "<group>"; };
 		845C1FF31875186B00295CAF /* CheckBtnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBtnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C1FF61875186B00295CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		845C1FF81875186B00295CAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,12 @@
 		845C20171875186B00295CAF /* CheckBtnDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckBtnDemoTests-Info.plist"; sourceTree = "<group>"; };
 		845C20191875186B00295CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		845C201B1875186B00295CAF /* CheckBtnDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBtnDemoTests.m; sourceTree = "<group>"; };
+		845C20251875188F00295CAF /* YGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLViewController.h; sourceTree = "<group>"; };
+		845C20261875188F00295CAF /* YGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLViewController.m; sourceTree = "<group>"; };
+		845C20271875188F00295CAF /* YGLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGLViewController.xib; sourceTree = "<group>"; };
+		845C202A1875191500295CAF /* YGLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLCell.h; sourceTree = "<group>"; };
+		845C202B1875191500295CAF /* YGLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLCell.m; sourceTree = "<group>"; };
+		845C202D1875192200295CAF /* YGLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGLCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +129,16 @@
 				845C20061875186B00295CAF /* YGLAppDelegate.m */,
 				845C20081875186B00295CAF /* Images.xcassets */,
 				845C1FFD1875186B00295CAF /* Supporting Files */,
+				845C20251875188F00295CAF /* YGLViewController.h */,
+				845C20261875188F00295CAF /* YGLViewController.m */,
+				845C20271875188F00295CAF /* YGLViewController.xib */,
+				845C202A1875191500295CAF /* YGLCell.h */,
+				845C202B1875191500295CAF /* YGLCell.m */,
+				845C202D1875192200295CAF /* YGLCell.xib */,
+				842A7093187526A70027ADAA /* bk.png */,
+				842A7094187526A70027ADAA /* bk@2x.png */,
+				842A7095187526A70027ADAA /* bs.png */,
+				842A7096187526A70027ADAA /* bs@2x.png */,
 			);
 			path = CheckBtnDemo;
 			sourceTree = "<group>";
@@ -220,8 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842A7097187526A70027ADAA /* bk.png in Resources */,
+				845C202E1875192200295CAF /* YGLCell.xib in Resources */,
 				845C20011875186B00295CAF /* InfoPlist.strings in Resources */,
+				842A709A187526A70027ADAA /* bs@2x.png in Resources */,
+				842A7099187526A70027ADAA /* bs.png in Resources */,
+				845C20291875188F00295CAF /* YGLViewController.xib in Resources */,
 				845C20091875186B00295CAF /* Images.xcassets in Resources */,
+				842A7098187526A70027ADAA /* bk@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845C202C1875191500295CAF /* YGLCell.m in Sources */,
+				845C20281875188F00295CAF /* YGLViewController.m in Sources */,
 				845C20031875186B00295CAF /* main.m in Sources */,
 				845C20071875186B00295CAF /* YGLAppDelegate.m in Sources */,
 			);
@@ -442,6 +478,7 @@
 				845C20211875186B00295CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845C20221875186B00295CAF /* Build configuration list for PBXNativeTarget "CheckBtnDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +487,7 @@
 				845C20241875186B00295CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

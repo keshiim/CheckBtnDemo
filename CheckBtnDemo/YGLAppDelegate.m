@@ -7,6 +7,7 @@
 //
 
 #import "YGLAppDelegate.h"
+#import "YGLViewController.h"
 
 @implementation YGLAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    YGLViewController *root = [[YGLViewController alloc] initWithNibName:NSStringFromClass([YGLViewController class])
+                                                                  bundle:nil];
+    [self.window addSubview:root.view];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
